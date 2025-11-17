@@ -1,0 +1,116 @@
+name: Watchdog
+version: 1.4.0
+main: com.example.watchdogpaper.WatchdogPaper
+api-version: 1.8
+description: Advanced moderation and reporting plugin for Minecraft servers
+author: YourName
+website: https://farepixel.fun
+
+commands:
+  report:
+    description: Report a player for rule violations
+    usage: /report <player>
+    permission: watchdog.report
+  watchdogreport-accept:
+    description: Accept a watchdog report
+    usage: /watchdogreport-accept <reporter> <reported>
+    permission: watchdog.mod
+  watchdoglist:
+    description: List pending watchdog reports
+    usage: /watchdoglist
+    permission: watchdog.admin
+  ban:
+    description: Permanently ban a player
+    usage: /ban (-s) [player] [reason]
+    permission: watchdog.ban
+  tempban:
+    description: Temporarily ban a player
+    usage: /tempban (-s) [player] [duration] [reason]
+    permission: watchdog.tempban
+  mute:
+    description: Permanently mute a player
+    usage: /mute (-s) [player] [reason]
+    permission: watchdog.mute
+  tempmute:
+    description: Temporarily mute a player
+    usage: /tempmute (-s) [player] [duration] [reason]
+    permission: watchdog.tempmute
+  warn:
+    description: Warn a player
+    usage: /warn (-s) [player] [reason]
+    permission: watchdog.warn
+  kick:
+    description: Kick a player from the server
+    usage: /kick (-s) [player] [reason]
+    permission: watchdog.kick
+  unban:
+    description: Unban a player
+    usage: /unban [player]
+    permission: watchdog.unban
+  unmute:
+    description: Unmute a player
+    usage: /unmute [player]
+    permission: watchdog.unmute
+  history:
+    description: View player punishment history
+    usage: /history [player] <page>
+    permission: watchdog.history
+
+permissions:
+  watchdog.*:
+    description: All watchdog permissions
+    children:
+      watchdog.report: true
+      watchdog.mod: true
+      watchdog.admin: true
+      watchdog.ban: true
+      watchdog.tempban: true
+      watchdog.mute: true
+      watchdog.tempmute: true
+      watchdog.warn: true
+      watchdog.kick: true
+      watchdog.unban: true
+      watchdog.unmute: true
+      watchdog.history: true
+  watchdog.report:
+    description: Permission to use the report command
+    default: true
+  watchdog.mod:
+    description: Moderator permissions
+    default: op
+  watchdog.admin:
+    description: Administrator permissions
+    default: op
+  watchdog.ban:
+    description: Permission to ban players
+    default: op
+  watchdog.tempban:
+    description: Permission to temporarily ban players
+    default: op
+  watchdog.mute:
+    description: Permission to mute players
+    default: op
+  watchdog.tempmute:
+    description: Permission to temporarily mute players
+    default: op
+  watchdog.warn:
+    description: Permission to warn players
+    default: op
+  watchdog.kick:
+    description: Permission to kick players
+    default: op
+  watchdog.unban:
+    description: Permission to unban players
+    default: op
+  watchdog.unmute:
+    description: Permission to unmute players
+    default: op
+  watchdog.history:
+    description: Permission to view punishment history
+    default: op
+  farepixel.mod:
+    description: FarePixel moderator permissions
+    default: op
+  farepixel.admin:
+    description: FarePixel administrator permissions
+    default: op
