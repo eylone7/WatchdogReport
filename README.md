@@ -12,7 +12,7 @@ Staff Notify when a player report
 That's it.
 
 ## ScreenShots
-![LOG](https://imgur.com/ITMAfUd)
+(https://imgur.com/ITMAfUd)
 
 ## Requirements
 You Must Connect The Mysql Database or the plugin will not work.
