@@ -9,7 +9,9 @@ This plugin is a Remake of a popular mc Server Report System.
 - Watchdog Commands.... [You can Check Them]
 
 ## Pictures:
-![LOG](https://i.imgur.com/ITMAfUd_d.webp?maxwidth=760&fidelity=grand)
+![LOG](https://i.imgur.com/Cry83C7.png)
+![LOG](https://i.imgur.com/JdkMB8b.png)
+![LOG](https://i.imgur.com/pqTNqoT.png)
 
 ## Usage:
 You Must Connect The MysQL Database or the plugin will not work.  [i will add SQLite Storage System Support Soon + Config File and Messages Manager]
