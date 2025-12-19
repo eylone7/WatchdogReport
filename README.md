@@ -11,5 +11,5 @@ Staff Notify when a player report
 
 That's it.
 
-##ScreenShots
+## ScreenShots
 Soon...
