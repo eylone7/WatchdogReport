@@ -6,7 +6,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>Watchdog</artifactId>
-    <version>1.4.0</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>Watchdog</name>
@@ -132,4 +132,5 @@
             </resource>
         </resources>
     </build>
+
 </project>
