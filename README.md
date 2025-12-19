@@ -12,4 +12,8 @@ Staff Notify when a player report
 That's it.
 
 ## ScreenShots
-Soon...
+(https://imgur.com/a/gNCG7zI)
+
+## Requirements
+You Must Connect The Mysql Database or the plugin will not work.
+
