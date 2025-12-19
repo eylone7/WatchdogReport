@@ -1,9 +1,9 @@
-name: Watchdog
-version: 1.4.0
+name: WatchdogReport
+version: 1.0
 main: com.example.watchdogpaper.WatchdogPaper
 api-version: 1.8
 description: Advanced moderation and reporting plugin for Minecraft servers
-author: YourName
+author: Here_777
 website: https://farepixel.fun
 
 commands:
@@ -113,4 +113,5 @@ permissions:
     default: op
   farepixel.admin:
     description: FarePixel administrator permissions
+
     default: op
