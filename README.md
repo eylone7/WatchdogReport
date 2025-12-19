@@ -4,8 +4,9 @@ WatchdogReport is a minecraft plugin that support's 1.8.8 Paper/Spigot/Bukkit Se
 This plugin is a Remake of a popular mc Server Report System.
 
 ## Features:
-- Report System GUI Menu
-- Punishements commands
+- Report GUI ✔
+- Punishements commands ✔
+- Like Hypixel ✔
 - Watchdog Commands.... [You can Check Them]
 
 ## Pictures:
