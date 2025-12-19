@@ -15,7 +15,7 @@ This plugin is a Remake of a popular mc Server Report System.
 
 ## Usage:
 You Must Connect The MysQL Database or the plugin will not work.  
-**I will add SQLite Storage System Support Soon + Config File and Messages Manager**
+**I will add SQLite Storage System Support + Config File and Messages Manager Soon...**
 
 You Can Edit MySQL Here:
 ```    private void connectToDatabase() {
