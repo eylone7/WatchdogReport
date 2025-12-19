@@ -13,6 +13,7 @@ This plugin is a Remake of a popular mc Server Report System.
 ![LOG](https://i.imgur.com/Cry83C7.png)
 ![LOG](https://i.imgur.com/JdkMB8b.png)
 ![LOG](https://i.imgur.com/pqTNqoT.png)
+![LOLG](https://proxy.spigotmc.org/f9fb50322da8c2939562b57527f8934d6142c908/687474703a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d312e302e302d696e666f726d6174696f6e616c)
 
 ## Usage:
 You Must Connect The MysQL Database or the plugin will not work.  
